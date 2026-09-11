@@ -1,4 +1,4 @@
-const PROMPTS = [
+ export const PROMPTS = [
   {
     type: "image",
     category: "Cinematic",
@@ -113,7 +113,7 @@ const PROMPTS = [
   }
 ];
 
-const PDFS = [
+   export const PDFS = [
   {
     title: "50 Cinematic Image Prompts Pack",
     description: "Tested prompts for Midjourney v6, DALL-E 3, and Stable Diffusion. Includes camera settings, aspect ratios, and style modifiers.",
@@ -146,6 +146,6 @@ const PDFS = [
     badge: "Premium",
     link: "#"
   }
-];
+];//
 
 
