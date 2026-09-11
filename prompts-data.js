@@ -145,8 +145,7 @@ const PDFS = [
     updated: "Nov 2025",
     badge: "Premium",
     link: "#"
-   {
-}
-    
+  }
+
 
 
