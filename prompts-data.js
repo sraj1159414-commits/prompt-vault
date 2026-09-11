@@ -146,7 +146,7 @@ const PDFS = [
     badge: "Premium",
     link: "#"
    {
-    
+}
     
 
-}
+
