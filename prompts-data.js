@@ -145,5 +145,12 @@ const PDFS = [
     updated: "Nov 2025",
     badge: "Premium",
     link: "#"
-  }
+   {
+    type: "image",
+    category: "Cinematic",
+    tool: "AI Image Generator",
+    title: "1988 Bombay Monsoon Street",
+    image: "https://picsum.photos/seed/bombay1988/800/560",
+    prompt: "A full-body cinematic portrait of a young Indian man standing on a rainy Bombay street in 1988, complete body visible from head to feet, wearing authentic late-1980s Indian street fashion, rolled-up sleeves, tucked shirt, high-waisted trousers and classic leather shoes, holding a vintage umbrella, wet reflective road, old Bombay buildings, black-and-yellow taxis, pedestrians carrying umbrellas, warm shop lights reflecting on the street, atmospheric monsoon mist, authentic 1980s India, vintage 35mm analog photography, realistic film grain, cinematic lighting, nostalgic mood, photorealistic, full body completely visible, both feet visible, no cropping, vertical 9:16"
+} }
 ];
