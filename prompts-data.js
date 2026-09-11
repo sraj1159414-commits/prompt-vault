@@ -146,6 +146,6 @@
     badge: "Premium",
     link: "#"
   }
-];
++];
 
 
