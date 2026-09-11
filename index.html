@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Trending AI image prompts, video prompts, and prompt PDFs — tested daily and ready to copy.">
+<title>Prompt Vault — Trending AI Prompts, Copy & Create</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='40' fill='%23C9A227'/></svg>">
+</head>
+<body>
+
+<header class="header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">
+      <span class="logo-dot"></span>
+      PROMPT VAULT
+    </a>
+
+    <nav class="nav" id="nav">
+      <a href="index.html" class="active">Home</a>
+      <a href="prompts.html">Prompts</a>
+      <a href="pdfs.html">PDF Packs</a>
+      <a href="about.html">About</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="icon-btn" id="themeToggle" title="Toggle theme" aria-label="Toggle theme">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <button class="icon-btn menu-toggle" id="menuToggle" aria-label="Menu">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <div class="eyebrow">Daily Updated · Hand-Tested</div>
+      <h1 class="h-display">
+        Trending AI Prompts,<br>
+        <span style="color: var(--gold);">Ready To Copy.</span>
+      </h1>
+      <p class="lead">
+        I test AI image and video prompts every single day — across Midjourney, DALL-E, Runway, Sora, and Pika. Only the ones that actually work make it to this site.
+      </p>
+      <div class="hero-cta">
+        <a href="prompts.html" class="btn btn-primary">
+          Explore Prompts
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+        <a href="pdfs.html" class="btn btn-ghost">Download PDF Packs</a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="num"><span id="statPrompts">0</span><span>+</span></div>
+          <div class="lbl">Prompts Tested</div>
+        </div>
+        <div class="hero-stat">
+          <div class="num"><span id="statCategories">0</span></div>
+          <div class="lbl">Categories</div>
+        </div>
+        <div class="hero-stat">
+          <div class="num"><span>Daily</span></div>
+          <div class="lbl">Updates</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="preview-stack">
+        <div class="pcard pcard-1">
+          <img src="https://picsum.photos/seed/hero1/600/400" alt="Preview">
+          <span class="pcard-tag">Midjourney</span>
+          <div class="pcard-title">Cyberpunk Portrait</div>
+        </div>
+        <div class="pcard pcard-2">
+          <img src="https://picsum.photos/seed/hero2/600/400" alt="Preview">
+          <span class="pcard-tag">DALL-E 3</span>
+          <div class="pcard-title">Editorial Food</div>
+        </div>
+        <div class="pcard pcard-3">
+          <img src="https://picsum.photos/seed/hero3/600/400" alt="Preview">
+          <span class="pcard-tag">Runway</span>
+          <div class="pcard-title">Cinematic Drone</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow">Browse by category</div>
+        <h2 class="h-xl">Every prompt, organized the way you actually search.</h2>
+        <p class="lead">Pick a category and go straight to the styles you need — no hunting through random feeds.</p>
+      </div>
+      <a href="prompts.html" class="btn btn-ghost">See all</a>
+    </div>
+
+    <div class="cat-grid">
+      <a href="prompts.html?cat=Cinematic" class="cat-card reveal">
+        <div class="cat-icon">🎬</div>
+        <h3>Cinematic</h3>
+        <p>Film-style scenes, moody lighting, dramatic shots.</p>
+        <span class="count">50+ prompts</span>
+      </a>
+      <a href="prompts.html?cat=Portrait" class="cat-card reveal">
+        <div class="cat-icon">🎭</div>
+        <h3>Portrait</h3>
+        <p>Character portraits, editorial close-ups, mood boards.</p>
+        <span class="count">40+ prompts</span>
+      </a>
+      <a href="prompts.html?cat=Product" class="cat-card reveal">
+        <div class="cat-icon">📦</div>
+        <h3>Product</h3>
+        <p>Commercial still life, e-commerce, packaging shots.</p>
+        <span class="count">35+ prompts</span>
+      </a>
+      <a href="prompts.html?cat=Editorial" class="cat-card reveal">
+        <div class="cat-icon">📰</div>
+        <h3>Editorial</h3>
+        <p>Magazine-style spreads, infographics, science visuals.</p>
+        <span class="count">30+ prompts</span>
+      </a>
+      <a href="prompts.html?cat=Abstract" class="cat-card reveal">
+        <div class="cat-icon">🌀</div>
+        <h3>Abstract</h3>
+        <p>Fluid forms, textures, conceptual backgrounds.</p>
+        <span class="count">25+ prompts</span>
+      </a>
+      <a href="prompts.html?cat=Architecture" class="cat-card reveal">
+        <div class="cat-icon">🏛️</div>
+        <h3>Architecture</h3>
+        <p>Interiors, exteriors, brutalist and modern styles.</p>
+        <span class="count">20+ prompts</span>
+      </a>
+      <a href="prompts.html?cat=Nature" class="cat-card reveal">
+        <div class="cat-icon">🌲</div>
+        <h3>Nature</h3>
+        <p>Landscapes, wildlife, atmospheric natural scenes.</p>
+        <span class="count">25+ prompts</span>
+      </a>
+      <a href="prompts.html?cat=Fantasy" class="cat-card reveal">
+        <div class="cat-icon">🐉</div>
+        <h3>Fantasy</h3>
+        <p>Worlds, characters, painterly concept art.</p>
+        <span class="count">30+ prompts</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="background: var(--bg-soft);">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow">Trending now</div>
+        <h2 class="h-xl">This week's top prompts.</h2>
+        <p class="lead">Fresh prompts, tested and updated — copy them and use them anywhere.</p>
+      </div>
+      <a href="prompts.html" class="btn btn-ghost">View all prompts</a>
+    </div>
+
+    <div class="prompt-grid" id="featuredGrid"></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow">How it works</div>
+        <h2 class="h-xl">Three steps from search to result.</h2>
+      </div>
+    </div>
+
+    <div class="steps">
+      <div class="step reveal">
+        <div class="step-num">01</div>
+        <h3>Find a prompt</h3>
+        <p>Search by category or tool — every prompt is tagged, so you land on exactly what you need in seconds.</p>
+      </div>
+      <div class="step reveal">
+        <div class="step-num">02</div>
+        <h3>Copy it</h3>
+        <p>One click and the full prompt text — including parameters and modifiers — is in your clipboard.</p>
+      </div>
+      <div class="step reveal">
+        <div class="step-num">03</div>
+        <h3>Paste & create</h3>
+        <p>Drop it into Midjourney, DALL-E, Runway, Sora, or any AI tool. Adjust for your style and generate.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-sm">
+  <div class="container">
+    <div class="newsletter reveal">
+      <h2 class="h-xl">Get daily prompts in your inbox.</h2>
+      <p>One email a week. The best new prompts, no spam, unsubscribe any time.</p>
+      <form class="newsletter-form" onsubmit="handleNewsletter(event)">
+        <input type="email" placeholder="your@email.com" required>
+        <button type="submit" class="btn btn-gold">Subscribe</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo"><span class="logo-dot"></span>PROMPT VAULT</div>
+        <p>Hand-tested AI prompts and PDF packs for creators who want to skip the trial and error.</p>
+      </div>
+      <div>
+        <h4>Product</h4>
+        <ul>
+          <li><a href="prompts.html">Image Prompts</a></li>
+          <li><a href="prompts.html?type=video">Video Prompts</a></li>
+          <li><a href="pdfs.html">PDF Packs</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="about.html#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Privacy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2025 Prompt Vault. All prompts tested before posting.</div>
+      <div class="social">
+        <a href="#" aria-label="Twitter"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 2H22l-7 8 8.2 12h-6.4l-5-7.4L5.8 22H2.7l7.5-8.6L2.3 2h6.6l4.5 6.6L18.9 2zm-1.1 18h1.7L7.3 3.8H5.5L17.8 20z"/></svg></a>
+        <a href="#" aria-label="YouTube"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M23 12s0-3.8-.5-5.6c-.3-1-1.1-1.8-2.1-2.1C18.6 3.8 12 3.8 12 3.8s-6.6 0-8.4.5c-1 .3-1.8 1.1-2.1 2.1C1 8.2 1 12 1 12s0 3.8.5 5.6c.3 1 1.1 1.8 2.1 2.1 1.8.5 8.4.5 8.4.5s6.6 0 8.4-.5c1-.3 1.8-1.1 2.1-2.1.5-1.8.5-5.6.5-5.6zM9.8 15.5V8.5l5.8 3.5-5.8 3.5z"/></svg></a>
+        <a href="#" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="18 15 12 9 6 15"/></svg>
+</button>
+
+<div class="toast" id="toast">Copied to clipboard</div>
+
+<script src="prompts-data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
