@@ -118,7 +118,7 @@ const PDFS = [
     title: "50 Cinematic Image Prompts Pack",
     description: "Tested prompts for Midjourney v6, DALL-E 3, and Stable Diffusion. Includes camera settings, aspect ratios, and style modifiers.",
     pages: 12,
-    updated: "Nov 2025",
+    updated: "Nov 2026",
     badge: "Free",
     link: "#"
   },
@@ -126,7 +126,7 @@ const PDFS = [
     title: "30 AI Video Prompts for Runway & Sora",
     description: "Camera-move formulas, hook structures, and scene breakdowns for AI video generation tools.",
     pages: 8,
-    updated: "Nov 2025",
+    updated: "Nov 2026",
     badge: "Free",
     link: "#"
   },
@@ -134,7 +134,7 @@ const PDFS = [
     title: "Editorial Illustration Prompt Library",
     description: "120+ prompts for magazine-style editorial illustrations — covers food, science, and lifestyle categories.",
     pages: 24,
-    updated: "Nov 2025",
+    updated: "Nov 2026",
     badge: "Premium",
     link: "#"
   },
@@ -142,10 +142,10 @@ const PDFS = [
     title: "Product Photography Prompt Vault",
     description: "80 commercial product photography prompts with lighting, materials, and background specifications.",
     pages: 18,
-    updated: "Nov 2025",
+    updated: "Nov 2026",
     badge: "Premium",
     link: "#"
   }
-
+];
 
 
