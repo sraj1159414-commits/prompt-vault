@@ -60,7 +60,7 @@
     category: "Fantasy",
     tool: "Midjourney v6",
     title: "Ancient Sorcerer's Library",
-    image: "https://picsum.photos/seed/fan1/800/560",
+    image: "https://ibb.co/V14PG5b",
     prompt: "Vast ancient sorcerer's library, floating books and candlelight, towering stone arches, magical atmosphere, painterly fantasy illustration, artstation style --ar 16:9 --v 6"
   },
   {
